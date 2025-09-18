@@ -3,9 +3,14 @@ schema {
 	mutation: Mutation
 }
 
+type TasksQueryResult {
+	nodes: [Task!]!
+	count: Int!
+}
+
 type Query {
 	task(id: ID!): Task
-	tasks: [Task!]!
+	tasks: TasksQueryResult
 }
 
 type Mutation {
