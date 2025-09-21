@@ -51,3 +51,6 @@ run the following command from GET_IT_DONE/
 * `client/`: Contains the React frontend application.
 * `server/`: Contains the C# backend with the GraphQL API and Entity Framework Core migrations.
 * `docker-compose.yml`: Defines the services, networks, and volumes for the Docker environment.
+* `server/Dockerfile`: Will be port forwarding 5000:5000.
+* `client/Dockerfile`: Standard npm start configuration.
+
