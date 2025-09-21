@@ -47,14 +47,15 @@ run the following command from GET_IT_DONE/
 ---
 
 ### Project Structure
-* `docker-compose.yml`: Defines the services, networks, and volumes for the Docker environment.
-
-* `client/`: Contains the React frontend application.
-* `client/Dockerfile`: Configured to run the standard npm start command for the frontend.
-
-* `server/`: Contains the C# backend with the GraphQL API and Entity Framework Core migrations.
-* `server/Dockerfile`: Sets up the backend service and forwards port 5000 to 5000.
-* `server/Migrations`: Contains pre-existing migrations from the development phase, providing a clean snapshot of the database schema.
-* `server/GraphQL`: This directory contains schema.graphql and all its useful structures. The project follows a schema-first development approach.
-
-
+**GET_IT_DONE/**
+├── **docker-compose.yml**    (Defines the services, networks, and volumes for the Docker environment.)
+├── **client/**
+│   ├── ...
+│   ├── **Dockerfile** (Runs the React app)
+│   └── ...
+├── server/ (Contains the React frontend application.)
+│   ├── **GraphQL/**    (The project follows a schema-first development approach)
+│   │   └── **schema.graphql** (The GraphQL schema file)
+│   ├── **Migrations/** (Database migrations)
+│   ├── ...
+└── └── **Dockerfile** (Runs the C# backend)
