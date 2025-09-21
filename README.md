@@ -1,6 +1,8 @@
 # Get It Done!
 
-This repository contains a full-stack task management application. The frontend is built with **React** and the **Adobe Spectrum** design system, while the backend is a **C# GraphQL API** using **Entity Framework Core**. The entire application is containerized with **Docker** for easy and consistent setup.
+This repository contains a simple, full-stack task manager application that demonstrates a modern development workflow. The core objective is to build a robust application using an ASP.NET Core backend with a GraphQL API, a React frontend for the user interface, and Docker containers for a streamlined, portable deployment.
+
+The project fulfills key requirements, including a clearly defined GraphQL schema on the backend and an intuitive user experience on the frontend. This setup provides a complete example of how to build, deploy, and manage a containerized application with a GraphQL API.
 
 ---
 
@@ -20,15 +22,15 @@ Follow these steps to set up and run the application.
     Navigate to your desired directory and clone the project:
 
     ```bash
-    git clone [https://github.com/maksimstoyanov/GET_IT_DONE.git](https://github.com/maksimstoyanov/GET_IT_DONE.git)
+    git clone https://github.com/maksimstoyanov/GET_IT_DONE.git
     ```
 
 2.  **Run with Docker Compose**
 
     Change your directory to the root of the cloned repository and execute the `docker compose up` command. This will build the necessary images and start the containers.
 
+run the following command from GET_IT_DONE/ 
     ```bash
-    cd GET_IT_DONE/
     docker compose up --build
     ```
 
