@@ -1,4 +1,5 @@
 # Get It Done!
+    by Maksim Stoyanov maksimstoyanov59@gmail.com
 
 This repository contains a simple, full-stack task manager application that demonstrates a modern development workflow. The core objective is to build a robust application using an ASP.NET Core backend with a GraphQL API, a React frontend for the user interface, and Docker containers for a streamlined, portable deployment.
 
